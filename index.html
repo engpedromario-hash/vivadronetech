@@ -345,7 +345,7 @@
 </head>
 <body>
   <nav>
-
+<a href="https://www.instagram.com/vivadronetech" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
     <i class="fab fa-instagram"></i>
     <div class="nav-inner">
       <a href="#inicio" class="nav-logo">
@@ -354,8 +354,6 @@
           <span>Consultor Técnico em Pulverização Agrícola</span>
         </div>
       </a>
-
-<a href="https://www.instagram.com/vivadronetech" target="_blank" rel="noopener noreferrer">
       
 <ul class="nav-links">
         <li><a href="#inicio">Início</a></li>
@@ -367,6 +365,7 @@
     </div>
   </nav>
 
+<main>
   <header class="hero" id="inicio">
     <div class="hero-inner">
       <div>
@@ -580,8 +579,8 @@
           <input type="text" id="form-local" placeholder="Ex: Fazenda São João – Franca-SP" />
         </div>
         <div class="form-group">
-          <label>Cultura</label>
-          <select id="form-cultura">
+          <label for="form-cultura">Cultura</label>
+<select id="form-cultura">
             <option value="">Selecione a cultura</option>
             <option>Café</option>
             <option>Cana-de-Açúcar</option>
@@ -592,17 +591,19 @@
           </select>
         </div>
         <div class="form-group">
-          <label>Área aproximada (ha)</label>
-          <input type="number" id="form-area" placeholder="Ex: 50" />
+          <label for="form-area">Área aproximada (ha)</label>
+<input type="number" id="form-area" placeholder="Ex: 50" />
         </div>
         <div class="form-group">
-          <label>Mensagem (opcional)</label>
-          <textarea id="form-msg" placeholder="Conte mais sobre o que você precisa..."></textarea>
+          <label for="form-msg">Mensagem (opcional)</label>
+<textarea id="form-msg" placeholder="Conte mais sobre o que você precisa..."></textarea>
         </div>
         <button type="button" class="btn-form" onclick="enviarWhatsApp()">📲 Enviar pelo WhatsApp</button>
       </div>
     </div>
   </section>
+
+</main>
 
   <footer>
     <div class="footer-inner">
