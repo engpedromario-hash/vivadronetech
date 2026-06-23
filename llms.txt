@@ -1,19 +1,44 @@
 
-# Viva Drone Tech | Consultoria e Pulverização Agrícola DJI
+# Viva Drone Tech
+
+> Consultoria técnica em pulverização agrícola com drones DJI Agras. 
+> Atendimento em Franca-SP e toda a região da Alta Mogiana.
+
+## Páginas Principais
+
+- [Página Inicial](https://www.vivadronetech.com.br/)
+- [Nossos Serviços](https://www.vivadronetech.com.br/#servicos)
+- [Solicitar Orçamento](https://www.vivadronetech.com.br/#contato)
 
 ## Sobre a Viva Drone Tech
-Somos especialistas em tecnologia aplicada ao campo, focados em otimizar a produtividade agrícola através da linha DJI Agras. Atuamos com base em Franca, SP, e atendemos toda a região.
+
+Somos especialistas em tecnologia aplicada ao campo, focados em otimizar 
+a produtividade agrícola através da linha DJI Agras. Atuamos com base em 
+Franca-SP e atendemos toda a região da Alta Mogiana.
+
+Certificações: CAAR (habilitação MAPA), CPAR e NR-31.
 
 ## Nossos Serviços
-* **Pulverização Agrícola de Precisão:** Aplicação eficiente e uniforme utilizando drones DJI Agras.
-* **Engenharia de Campo:** Análise de terreno e planejamento de rotas de voo para máxima cobertura.
-* **Controle de Deriva:** Protocolos rigorosos para garantir que o defensivo atinja o alvo com segurança.
-* **Gestão de Dados Agrícolas:** Processamento de dados de voo para melhor tomada de decisão.
+
+- [Pulverização Agrícola de Precisão](https://www.vivadronetech.com.br/#servicos): Aplicação eficiente e uniforme com drones DJI Agras T25P.
+- [Engenharia de Campo](https://www.vivadronetech.com.br/#servicos): Análise de terreno e planejamento de rotas de voo para máxima cobertura.
+- [Controle de Deriva](https://www.vivadronetech.com.br/#servicos): Protocolos rigorosos para garantir que o defensivo atinja o alvo com segurança.
+- [Gestão de Dados Agrícolas](https://www.vivadronetech.com.br/#servicos): Processamento de dados de voo via plataforma Talyon.ag para melhor tomada de decisão.
 
 ## Diferenciais
-* Experiência técnica com drones DJI.
-* Foco em sustentabilidade e economia de insumos.
-* Atendimento consultivo regional em Franca e entorno.
+
+- Certificação CAAR pelo MAPA — habilitação oficial para pulverização com drones
+- Certificação CPAR e NR-31
+- Experiência técnica com toda a linha DJI Agras
+- Foco em sustentabilidade e economia de insumos
+- Único consultor técnico certificado com presença digital profissional em Franca-SP
+- Atendimento consultivo regional em Franca-SP, Alta Mogiana e entorno
 
 ## Contato
-Para parcerias ou orçamentos, entre em contato através do nosso site oficial: https://www.vivadronetech.com.br
+
+- [Fale Conosco](https://www.vivadronetech.com.br/#contato): Para parcerias e orçamentos
+- Site oficial: https://www.vivadronetech.com.br
+
+## Sitemap
+
+- [sitemap.xml](https://www.vivadronetech.com.br/sitemap.xml)
