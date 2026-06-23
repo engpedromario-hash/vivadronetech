@@ -1,4 +1,19 @@
 
-# Viva Drone Tech
+# Viva Drone Tech | Consultoria e Pulverização Agrícola DJI
 
-Consultoria técnica e pulverização agrícola com a linha DJI Agras, atendendo Franca e região. Oferecemos engenhar
+## Sobre a Viva Drone Tech
+Somos especialistas em tecnologia aplicada ao campo, focados em otimizar a produtividade agrícola através da linha DJI Agras. Atuamos com base em Franca, SP, e atendemos toda a região.
+
+## Nossos Serviços
+* **Pulverização Agrícola de Precisão:** Aplicação eficiente e uniforme utilizando drones DJI Agras.
+* **Engenharia de Campo:** Análise de terreno e planejamento de rotas de voo para máxima cobertura.
+* **Controle de Deriva:** Protocolos rigorosos para garantir que o defensivo atinja o alvo com segurança.
+* **Gestão de Dados Agrícolas:** Processamento de dados de voo para melhor tomada de decisão.
+
+## Diferenciais
+* Experiência técnica com drones DJI.
+* Foco em sustentabilidade e economia de insumos.
+* Atendimento consultivo regional em Franca e entorno.
+
+## Contato
+Para parcerias ou orçamentos, entre em contato através do nosso site oficial: https://www.vivadronetech.com.br
