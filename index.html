@@ -343,7 +343,16 @@
       .app-inner { grid-template-columns: 1fr; text-align: center; }
       .app-features li { justify-content: center; }
     }
-  </style>
+  .videos-section { padding: 60px 20px; text-align: center; background: #f8f9fa; }
+.videos-section h2 { color: #34495E; font-size: 2em; margin-bottom: 10px; }
+.video-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; max-width: 1100px; margin: 30px auto 0; }
+.video-card { background: #fff; border-radius: 12px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.08); text-decoration: none; transition: transform 0.2s; }
+.video-card:hover { transform: translateY(-6px); }
+.video-card img { width: 100%; display: block; }
+.video-card-body { padding: 16px; text-align: left; }
+.video-card-body h3 { color: #34495E; font-size: 1.05em; margin: 0 0 8px; line-height: 1.3; }
+.video-card-body span { color: #3498DB; font-size: 0.85em; font-weight: 600; }
+</style>
 </head>
 <body>
   <nav>
@@ -363,7 +372,7 @@
         <li><a href="#app">Monitoramento</a></li>
         <li><a href="#servicos">Serviços</a></li>
         <li><a href="#sobre">Sobre</a></li>
-        <li><a href="https://wa.me/5516989980602?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20pulveriza%C3%A7%C3%A3o%20com%20a%20linha%20XAG%P60." target="_blank" rel="noopener" class="nav-cta">Orçamento</a></li>
+        <li><a href="https://wa.me/5516989980602?text=Ol%C3%A1!%20Gostaria%20de%20um%20or%C3%A7amento%20para%20pulveriza%C3%A7%C3%A3o%20com%20a%20linha%20XAG%20P60." target="_blank" rel="noopener" class="nav-cta">Orçamento</a></li>
       </ul>
     </div>
   </nav>
@@ -544,7 +553,14 @@
     </div>
   </section>
 
-  <section class="contato" id="contato">
+  <section id="videos" class="videos-section">
+  <h2>Últimos Vídeos</h2>
+  <p>Acompanhe o dia a dia da Viva Drone Tech no campo</p>
+  <div id="youtube-cards" class="video-grid">
+    <p class="loading-msg">Carregando vídeos...</p>
+  </div>
+</section>
+<section class="contato" id="contato">
     <div class="contato-inner">
       <div>
         <div class="section-label">Fale Conosco</div>
@@ -670,5 +686,32 @@
       });
     });
   </script>
+<script>
+const YT_API_KEY = "AIzaSyCcsCB4Q_gsGmNwsURyMz7meVzH9CsAp4U";
+const UPLOADS_PLAYLIST_ID = "UU-pSUVybbni6bpkIMvenISg";
+
+fetch(`https://www.googleapis.com/youtube/v3/playlistItems?part=snippet&maxResults=3&playlistId=${UPLOADS_PLAYLIST_ID}&key=${YT_API_KEY}`)
+  .then(res => res.json())
+  .then(data => {
+    const container = document.getElementById('youtube-cards');
+    container.innerHTML = '';
+    data.items.forEach(item => {
+      const videoId = item.snippet.resourceId.videoId;
+      const title = item.snippet.title;
+      const thumb = item.snippet.thumbnails.medium.url;
+      container.innerHTML += `
+        <a class="video-card" href="https://www.youtube.com/watch?v=${videoId}" target="_blank" rel="noopener">
+          <img src="${thumb}" alt="${title}">
+          <div class="video-card-body">
+            <h3>${title}</h3>
+            <span>▶ Assistir no YouTube</span>
+          </div>
+        </a>`;
+    });
+  })
+  .catch(() => {
+    document.getElementById('youtube-cards').innerHTML = '<p>Não foi possível carregar os vídeos.</p>';
+  });
+</script>
 </body>
 </html>
